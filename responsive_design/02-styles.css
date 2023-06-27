@@ -12,7 +12,6 @@ body {
     margin-top: 0;
 }
 
-
 .header {
     background-color: black;
     background-position: center;
@@ -24,7 +23,6 @@ body {
     background-position: 65% 8rem;
     background-size: 90rem auto;
     background-color: black;
-
 }
 
 .section-hero .section-inner {
@@ -91,8 +89,9 @@ body {
 .section-title {
     color: white;
 }
+
 .container {
-    width: 1000px;
+    max-width: 4000px;
     margin-left: auto;
     margin-right: auto;
 }
