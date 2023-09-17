@@ -9,7 +9,6 @@ Welcome to the Techium project! This README provides information about the proje
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Demo](#demo)
-  - [Screenshots](#screenshots)
   - [Technologies Used](#technologies-used)
   - [Installation](#installation)
   - [Usage](#usage)
