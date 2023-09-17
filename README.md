@@ -28,13 +28,6 @@ Techium is a fictional tech company's website built using HTML and CSS. It showc
 
 If you want to see a live demo of the Techium website, you can [visit it here](#).
 
-## Screenshots
-
-![Screenshot 1](screenshot1.png)
-*Caption for Screenshot 1.*
-
-![Screenshot 2](screenshot2.png)
-*Caption for Screenshot 2.*
 
 ## Technologies Used
 
@@ -51,7 +44,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/techium-website.git
+   git clone https://github.com/Telesphore-Uwabera/techium-website.git
    ```
 
 2. Open the project directory:
@@ -118,5 +111,3 @@ We would like to thank the following:
 - [Google Fonts](https://fonts.google.com/) for the beautiful fonts used in the project.
 - All our team members who contributed to the project.
 ```
-
-Please replace the placeholders (e.g., `[visit it here]`, `your-username`, `screenshot1.png`, `screenshot2.png`, etc.) with your actual project details and links. Additionally, you may want to create separate files for `CONTRIBUTING.md` and `LICENSE.md` and provide appropriate links to them in your README if needed.
