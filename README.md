@@ -1,6 +1,4 @@
-Certainly! Below is a complete `README.md` file for your HTML project, including the section on responsive design:
 
-```markdown
 # Techium - HTML Project
 
 Welcome to the Techium project! This README provides information about the project and its components.
