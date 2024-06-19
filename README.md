@@ -41,7 +41,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Telesphore-Uwabera/techium-website.git
+   git clone https://github.com/Telesphore-Uwabera/website.git
    ```
 
 2. Open the project directory:
