@@ -24,7 +24,7 @@ body {
 }
 
 .section-inner {
-  background-image: url("banner-home.jpg");
+  background-image: url("images/banner-home.jpg");
   background-size: cover;
   height: 600px;
 }
