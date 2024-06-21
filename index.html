@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Homepage - Techium</title>
+  <meta name="description" content="Description of the page less than 150 characters">
+  <link rel="icon" type="image/png" href="images/favicon.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='02-1-styles.css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    .header {
+        background-color: #000;
+        padding: 10px 0;
+    }
+    .header-logo img {
+        display: block;
+    }
+    .nav-link {
+        color: #fff !important;
+    }
+    .form-search {
+        display: flex;
+        align-items: center;
+    }
+    #search-input {
+        padding: 5px;
+        font-size: 16px;
+        border: none;
+        border-radius: 3px;
+    }
+    .search-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 5px;
+    }
+    .search-icon {
+        fill: #fff;
+    }
+    
+    .card-testimonial .card-image img {
+      width: 150px; /* Set desired width */
+      height: 150px; /* Set desired height */
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .card-testimonial .card-outer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      height: 100%;
+    }
+    .card-testimonial .card-inner {
+      margin-top: 15px;
+    }
+
+    .social-icon {
+      width: 40px; /* Reduced width (40px * 0.8) */
+      height: 40px; /* Reduced height (40px * 0.8) */
+      object-fit: cover; /* Ensure the image covers the container */
+    }
+</style>
+
+<body>
+  <header class="header" data-section-theme="dark">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo-white.png" alt="Techium logo" width="160" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#works">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#latest_news">Latest news</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <form action="#" method="post" class="form-inline form-search" role="search">
+                            <input type="search" name="q" id="search-input" class="form-control mr-sm-2" placeholder="Search..." aria-label="Search through site content">
+                            <button class="search-button" type="submit" aria-label="Submit search">
+                                <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="search-icon">
+                                    <title>Search icon</title>
+                                    <path d="M508.5 468.9L387.1 347.5c-2.3-2.3-5.3-3.5-8.5-3.5h-13.2c31.5-36.5 50.6-84 50.6-136C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c52 0 99.5-19.1 136-50.6v13.2c0 3.2 1.3 6.2 3.5 8.5l121.4 121.4c4.7 4.7 12.3 4.7 17 0l22.6-22.6c4.7-4.7 4.7-12.3 0-17zM208 368c-88.4 0-160-71.6-160-160S119.6 48 208 48s160 71.6 160 160-71.6 160-160 160z"></path>
+                                </svg>
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <!– Main –>
+      <main>
+        <!– Hero section –>
+          <section class="section-hero hero-homepage" data-section-theme="dark">
+            <div class="container">
+              <div class="section-body">
+                <section class="section-inner">
+                  <h2 class="section-title">We help you building your brand</h2>
+                  <a href="#" class="button">Get Started</a>
+                </section>
+              </div>
+            </div>
+          </section>
+          <!-- Services section -->
+<section id="services" class="section section-services">
+  <div class="container">
+      <header class="section-header">
+          <h2 class="section-title">Services</h2>
+          <p class="section-tagline">We work with you</p>
+      </header>
+      <div class="section-body">
+          <ul class="list-unstyled row">
+              <li class="col-6 col-md-4 mb-4">
+                  <div class="card-services text-center">
+                      <img class="card-img" src="./images/image1.jpg" alt="Design & Concept">
+                      <h3 class="card-title"><a href="#">Design & Concept</a></h3>
+                  </div>
+              </li>
+              <li class="col-6 col-md-4 mb-4">
+                  <div class="card-services text-center">
+                      <img class="card-img" src="./images/image2.jpg" alt="Digital Strategy">
+                      <h3 class="card-title"><a href="#">Digital Strategy</a></h3>
+                  </div>
+              </li>
+              <li class="col-6 col-md-4 mb-4">
+                  <div class="card-services text-center">
+                      <img class="card-img" src="./images/image3.jpg" alt="Content Strategy">
+                      <h3 class="card-title"><a href="#">Content Strategy</a></h3>
+                  </div>
+              </li>
+              <li class="col-6 col-md-4 mb-4">
+                  <div class="card-services text-center">
+                      <img class="card-img" src="./images/image4.jpg" alt="UX Design">
+                      <h3 class="card-title"><a href="#">UX Design</a></h3>
+                  </div>
+              </li>
+              <li class="col-6 col-md-4 mb-4">
+                  <div class="card-services text-center">
+                      <img class="card-img" src="./images/image5.jpg" alt="Web Development">
+                      <h3 class="card-title"><a href="#">Web Development</a></h3>
+                  </div>
+              </li>
+              <li class="col-6 col-md-4 mb-4">
+                  <div class="card-services text-center">
+                      <img class="card-img" src="./images/image6.jpg" alt="Social Media">
+                      <h3 class="card-title"><a href="#">Social Media</a></h3>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </div>
+</section>
+            <!– Works section –>
+            <section id="works" class="section section-works" data-section-theme="dark">
+              <div class="container">
+                <header class="section-header">
+                  <h2 class="section-title" style="color:white;">Works</h2>
+                  <p class="section-tagline">Take a look at our portfolio</p>
+                </header>
+                <div class="section-body">
+                  <ul class="row list-unstyled d-flex flex-wrap">
+                    <li class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <article class="card-work">
+                        <div class="card-outer">
+                          <div class="card-image">
+                            <img src="./images/pic-work-01.jpg" alt="" class="img-fluid">
+                          </div>
+                          <div class="card-inner">
+                            <h3 class="card-title"><a href="#">Interior Design</a></h3>
+                          </div>
+                        </div>
+                      </article>
+                    </li>
+                    <li class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <article class="card-work">
+                        <div class="card-outer">
+                          <div class="card-image">
+                            <img src="./images/pic-work-02.jpg" alt="" class="img-fluid">
+                          </div>
+                          <div class="card-inner">
+                            <h3 class="card-title"><a href="#">Web Projects</a></h3>
+                          </div>
+                        </div>
+                      </article>
+                    </li>
+                    <li class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <article class="card-work">
+                        <div class="card-outer">
+                          <div class="card-image">
+                            <img src="./images/pic-work-03.jpg" alt="" class="img-fluid">
+                          </div>
+                          <div class="card-inner">
+                            <h3 class="card-title"><a href="#">Social Media</a></h3>
+                          </div>
+                        </div>
+                      </article>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <!– About section –>
+            <section id="about" class="section section-about">
+              <div class="container">
+                <header class="section-header">
+                  <h2 class="section-title">About Us</h2>
+                  <p class="section-tagline">Who we are</p>
+                </header>
+                <div class="section-body">
+                  <div class="row align-items-center">
+                    <div class="col-lg-6">
+                      <div class="about-img">
+                        <img src="./images/pic-about-01.jpg" alt="About Us" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="about-content">
+                        <p>Welcome to Techium, your number one source for all tech products. We're dedicated to giving you the very best of tech products, with a focus on technology, comptability and updated.</p>
+                        <p>Founded in 2023 by Thoms Hebrew, Techium has come a long way from its beginnings in a KK 499 St. 17. When T. Hebrew first started out, his passion for to develop tech sector industry.</p>
+                        <p>We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
+                        <p>Sincerely, T. Hebrew, CEO</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!– News section –>
+            <section id="latest_news" class="section section-news">
+              <div class="container">
+                <header class="section-header">
+                  <h2 class="section-title">Latest News</h2>
+                  <p class="section-tagline">Our news and events</p>
+                </header>
+                <div class="section-body">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <article class="card-news">
+                        <div class="card-outer">
+                          <div class="card-image">
+                            <img src="./images/pic-article-01.jpg" alt="News 1" class="img-fluid">
+                          </div>
+                          <div class="card-inner">
+                            <h3 class="card-title"><a href="#">Techium new design system</a></h3>
+                            <p class="card-meta">April 23, 2021</p>
+                            <p class="card-text">We are excited to announce the launch of our new design system...</p>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <article class="card-news">
+                        <div class="card-outer">
+                          <div class="card-image">
+                            <img src="./images/pic-article-02.jpg" alt="News 2" class="img-fluid">
+                          </div>
+                          <div class="card-inner">
+                            <h3 class="card-title"><a href="#">Techium launches new website</a></h3>
+                            <p class="card-meta">April 12, 2021</p>
+                            <p class="card-text">We have revamped our website with a fresh new look and feel...</p>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <article class="card-news">
+                        <div class="card-outer">
+                          <div class="card-image">
+                            <img src="./images/pic-article-03.jpg" alt="News 3" class="img-fluid">
+                          </div>
+                          <div class="card-inner">
+                            <h3 class="card-title"><a href="#">Introducing Techium Academy</a></h3>
+                            <p class="card-meta">March 29, 2021</p>
+                            <p class="card-text">We are thrilled to introduce our new educational platform...</p>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+           <!-- Testimonials section -->
+      <section id="testimonials" class="section section-testimonials py-5">
+        <div class="container">
+          <header class="section-header text-center mb-5">
+            <h2 class="section-title">Testimonials</h2>
+            <p class="section-tagline">What our clients say</p>
+          </header>
+          <div class="section-body">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card card-testimonial">
+                  <div class="card-outer">
+                    <div class="card-image mb-3">
+                      <img src="./images/pic-person-01.jpg" alt="Testimonial 1" class="img-fluid">
+                    </div>
+                    <div class="card-inner">
+                      <blockquote class="card-quote">Techium has transformed our business into the reputable business...</blockquote>
+                      <p class="card-meta">Jane Doe, CEO of Company</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card card-testimonial">
+                  <div class="card-outer">
+                    <div class="card-image mb-3">
+                      <img src="./images/pic-person-02.jpg" alt="Testimonial 2" class="img-fluid">
+                    </div>
+                    <div class="card-inner">
+                      <blockquote class="card-quote">We saw immediate results after working with Techium...</blockquote>
+                      <p class="card-meta">John Smith, Founder of Startup</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card card-testimonial">
+                  <div class="card-outer">
+                    <div class="card-image mb-3">
+                      <img src="./images/pic-person-03.jpg" alt="Testimonial 3" class="img-fluid">
+                    </div>
+                    <div class="card-inner">
+                      <blockquote class="card-quote">The team at Techium is highly professional and skilled...</blockquote>
+                      <p class="card-meta">Anna Johnson, Marketing Director</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+            <!– Contact section –>
+            <section id="contact" class="section section-contact" data-section-theme="dark">
+              <div class="container">
+                <header class="section-header">
+                  <h2 class="section-title">Contact Us</h2>
+                  <p class="section-tagline">Get in touch with us</p>
+                </header>
+                <div class="section-body">
+                  <form action="#" method="post">
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-12 mb-3">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </section>
+            <!– Footer section –>
+            <footer class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 mb-4">
+                    <a class="navbar-brand" href="#">
+                      <img src="./images/logo-black.png" alt="Techium logo" width="160" height="40">
+                  </a>      
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Projects</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <h4>Follow Us</h4>
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+              <ul class="list-unstyled d-flex">
+                <li><a href="#" class="me-2"><img src="./images/download.png" alt="Facebook" class="social-icon"></a></li>
+                <li><a href="#" class="me-2"><img src="./images/download (1).png" alt="Twitter" class="social-icon"></a></li>
+                <li><a href="#"><img src="./images/download (2).png" alt="LinkedIn" class="social-icon"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <p class="text-center">&copy; 2024 Techium. All rights reserved.</p>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </main>
+        </div>
+        <script src="./scripts/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+      </body>
+    </html>
