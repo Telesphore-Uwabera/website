@@ -107,4 +107,4 @@ We would like to thank the following:
 - [Bootstrap](https://getbootstrap.com/) for providing a powerful CSS framework.
 - [Google Fonts](https://fonts.google.com/) for the beautiful fonts used in the project.
 - All our team members who contributed to the project.
-```
+To view the Techium website, please visit [Techium website](https://telesphore-uwabera.github.io/website/).
